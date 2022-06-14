@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "83701159906",
+    "project_id": "rehbergalerisi",
+    "storage_bucket": "rehbergalerisi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83701159906:android:f2cd8dd66a179467170bbb",
+        "android_client_info": {
+          "package_name": "com.example.rehber_galerisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83701159906-ar8nh710kr4ost7rok5cg1snr37avc6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCh77xh4B41UZ9oVvTcJktYLTWKSFpQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83701159906-ar8nh710kr4ost7rok5cg1snr37avc6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
