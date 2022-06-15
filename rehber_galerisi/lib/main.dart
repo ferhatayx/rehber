@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rehber_galerisi/contact_list_page.dart';
+import 'package:rehber_galerisi/hero_list_page.dart';
 
 void main() {
   runApp(MyApp());

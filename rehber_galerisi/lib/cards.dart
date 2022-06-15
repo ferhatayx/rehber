@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rehber_galerisi/contact.dart';
+import 'package:rehber_galerisi/hero.dart';
 
 class ContactCard extends StatelessWidget {
   const ContactCard({
@@ -122,7 +122,7 @@ class ContactCard extends StatelessWidget {
                   Row(
                     children: [
                       const Icon(
-                        Icons.phone_outlined,
+                        Icons.date_range_outlined,
                         size: 40,
                       ),
                       const SizedBox(width: 10),

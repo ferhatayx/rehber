@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rehber_galerisi/contact.dart';
+import 'package:rehber_galerisi/hero.dart';
 import 'package:rehber_galerisi/cards.dart';
 import 'package:rehber_galerisi/perspective_list_view.dart';
 
@@ -39,7 +39,7 @@ class _ContactListPageState extends State<ContactListPage> {
             icon: const Icon(Icons.search),
           ),
         ],
-        title: const Text('TEMPLATE GALLERY'),
+        title: const Text('Çizgi Film Karakterleri'),
       ),
       body: PerspectiveListView(
         visualizedItems: _visibleItems,
