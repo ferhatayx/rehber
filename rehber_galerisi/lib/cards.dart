@@ -31,9 +31,13 @@ class ContactCard extends StatelessWidget {
                 top: Radius.circular(10),
               ),
             ),
-            child: const Icon(
-              Icons.add,
+            child: IconButton(
+              icon: Icon(Icons.add),
               color: Colors.white,
+              onPressed: () {
+                print("sa");
+              },
+              iconSize: 24,
             ),
           ),
         ),

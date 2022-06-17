@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:rehber_galerisi/hero_list_page.dart';
+import 'package:rehber_galerisi/giris.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -10,19 +15,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: const Color(0xff23202a),
-        appBarTheme: AppBarTheme(
-          color: Colors.deepPurple[400],
-          centerTitle: true,
-          iconTheme: const IconThemeData(color: Colors.white70),
-        ),
-        textTheme: TextTheme(
-          bodyText2: TextStyle(color: Color(0xff303030)),
-        ),
-        iconTheme: const IconThemeData(color: Colors.grey),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const ContactListPage(),
+      home: LoginPage(),
     );
   }
 }
